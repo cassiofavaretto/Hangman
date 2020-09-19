@@ -35,4 +35,9 @@ SUCCESS and FAIL determine whether you have succeeded or failed in the game and 
 
 You can play the game at https://hangman-front.herokuapp.com
 
+List of possible words:
+    
+    DELL, DELIVER, TECHNOLOGY, CUSTOMER, CLOUD, COMPUTER, SERVER, ADVANCED, 
+    STORAGE, SOLLUTIONS, COMMITMENT, DIVERSITY, ENGAGEMENT, COMMUNITY, MILESTONE
+
 Have fun!

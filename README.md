@@ -1,16 +1,15 @@
 # Hangman
-Hangman game in springboot
+Hangman game using Java and Springboot.
 
 To start a new game send a request to route POST https://cassio-hangman.herokuapp.com/start
-	https://cassio-hangman.herokuapp.com/start
-	localhost:8080/start
+    https://cassio-hangman.herokuapp.com/start
+    localhost:8080/start
 	
 To make a play send a request to route POST https://cassio-hangman.herokuapp.com/play/{letter}
 Replace the {letter} with a letter of the alphabet.
-	https://cassio-hangman.herokuapp.com/play/A
-	localhost:8080/play/A
-	
-	
+    https://cassio-hangman.herokuapp.com/play/A
+    localhost:8080/play/A
+
 The response of each request will be the game information.
 
 {

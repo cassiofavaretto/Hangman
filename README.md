@@ -32,6 +32,7 @@ There are 3 possible status.
 SUCCESS and FAIL determine whether you have succeeded or failed in the game and the PLAYING status determines that you still have chances remaining.
 
 You can play the game at https://hangman-front.herokuapp.com
+
 Note: The application is running on Heroku. I notice that it can be very unstable. So is recommended that you use Postman to call the /start and /play endpoints.
 
 List of possible words:

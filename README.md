@@ -33,8 +33,6 @@ SUCCESS and FAIL determine whether you have succeeded or failed in the game and 
 
 You can play the game at https://hangman-front.herokuapp.com
 
-Note: The application is running on Heroku. I notice that it can be very unstable. So if you having trouble using it, I recommended that you use Postman to call the /start and /play endpoints.
-
 List of possible words:
     
     DELL, DELIVER, TECHNOLOGY, CUSTOMER, CLOUD, COMPUTER, SERVER, ADVANCED, 

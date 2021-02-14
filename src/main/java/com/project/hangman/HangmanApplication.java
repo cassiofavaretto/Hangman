@@ -18,7 +18,7 @@ public class HangmanApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("https://cassio-hangman.herokuapp.com");
+				registry.addMapping("/**").allowedOrigins("https://hangman-front.herokuapp.com");
 			}
 		};
 	}

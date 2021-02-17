@@ -6,10 +6,7 @@ import java.util.Random;
 
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Scope;
-import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Service;
-import org.springframework.web.context.WebApplicationContext;
 
 import com.project.hangman.constants.Constants;
 import com.project.hangman.domain.Hangman;
@@ -21,7 +18,6 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
-@Scope(value = WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class HangmanService {
 
 	@Autowired

@@ -19,7 +19,6 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
-@SessionScope
 public class HangmanService {
 
 	@Autowired
